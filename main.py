@@ -8,7 +8,7 @@ app = FastAPI()
 # Allow frontend requests (adjust origin if needed)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://aviator-pro-mu.vercel.app"],
+    allow_origins=["https://aviator-pro-app.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
